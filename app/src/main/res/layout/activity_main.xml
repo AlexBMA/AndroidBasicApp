@@ -11,17 +11,17 @@
         android:layout_height="wrap_content"
         android:text="Happy birthday"
 
-        android:textSize="20dp"
+        android:textSize="36dp"
         />
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From Alex"
+        android:text="From Alex!"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:textSize="20dp"
+        android:textSize="36dp"
 
         />
 
