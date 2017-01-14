@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.example.alexandru.favoritetoys.MainActivity">
 
+    <ImageView
+        android:id="@+id/happy_birthday_picture"
+        android:src="@drawable/happybirthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy birthday"
-        android:fontFamily="sans-serif"
+        android:text="Happy birthday, Victor!"
+        android:fontFamily="sans-serif-light"
         android:textSize="36dp"
+        android:textColor="@android:color/white"
         />
 
 
@@ -21,16 +31,11 @@
         android:text="From Alex!"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-light"
         android:textSize="36dp"
+        android:textColor="@android:color/white"
 
         />
 
-    <ImageView
-        android:id="@+id/happy_birthday_picture"
-        android:src="@drawable/happybirthday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
-        />
 </RelativeLayout>
